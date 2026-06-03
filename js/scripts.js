@@ -7,7 +7,7 @@ var mr = (function ($, window, document){
 
 
     $(document).ready(documentReady);
-    $(window).load(windowLoad);
+    $(window).on('load', windowLoad);
 
     function documentReady(context){
         
